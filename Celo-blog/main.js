@@ -2,7 +2,7 @@
 const postObjectList = [
     {
         title: "Totti",
-        imageURL: "https://imgur.com/rne8QyY.jpg",
+        imageURL: "https://i.imgur.com/rne8QyY.jpg",
         desc: "Slowest pet alive",
         likes: 20,
         dislikes: 10,
@@ -10,7 +10,7 @@ const postObjectList = [
     },
     {
         title: "Cathy",
-        imageURL: "https://imgur.com/DspN52g.jpg",
+        imageURL: "https://i.imgur.com/DspN52g.jpg",
         desc: "Cathy, the innocent",
         likes: 100,
         dislikes: 16,
@@ -18,7 +18,7 @@ const postObjectList = [
     },
     {
         title: "Puggy",
-        imageURL: "https://imgur.com/MA1PGYb.jpg",
+        imageURL: "https://i.imgur.com/MA1PGYb.jpg",
         desc: "Puggy, the cutest",
         likes: 250,
         dislikes: 3,
@@ -26,7 +26,7 @@ const postObjectList = [
     },
     {
         title: "Pat",
-        imageURL: "https://imgur.com/rTY4Xkl.png",
+        imageURL: "https://i.imgur.com/rTY4Xkl.png",
         desc: "Pat, the talking companion",
         likes: 25,
         dislikes: 1,
