@@ -10,7 +10,7 @@ const postObjectList = [
     },
     {
         title: "Cathy",
-        imageURL: "https://imgur.com/DspN52g.jpg",
+        imageURL: "https://github.com/ced000/Celagram/blob/master/Celo-blog/img/cat.jpg",
         desc: "Cathy, the innocent",
         likes: 100,
         dislikes: 16,
