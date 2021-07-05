@@ -1,2 +1,2 @@
-# Celagram
-Getting around this github. 
+#Celagram
+If you're passionate about pets, this is for you. 
