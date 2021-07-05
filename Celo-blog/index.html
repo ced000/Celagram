@@ -11,6 +11,7 @@
 <body>
     <div class="header">
         <h2>Petagram</h2>
+        <span>30 cUSD</span>
     </div>
     <button class="nav-btn" id="prevBtn">👈</button>
     <div class="post-carousel">
@@ -25,8 +26,8 @@
         <form action="#">
             <h1>Pet Upload</h1>
             <hr>
-            <input type="text"  placeholder="Pet Name" name="" id="imgUrl">
-            <input type="text" placeholder="Pet Image (URL)" id="postName">
+            <input type="text"  placeholder="Pet Name" name="" id="petName">
+            <input type="text" placeholder="Pet Image (URL)" id="imgUrl">
             <input type="text" placeholder="3-word Description" id="desc">
             <input type="text" placeholder="Owner Social media URL" name="" id="authorHandle">
             <div class="form-btns">
@@ -34,6 +35,12 @@
                 <button class="form-btn" id="formUpload">Upload</button>
             </div>
         </form>
+    </div>
+    <div class="notification">
+        <div class="not-text">Testing notification...</div>
+        <div class="not-loader-container">
+            <div class="not-loader"></div>
+        </div>
     </div>
     <script src="./main.js"></script>
 </body>

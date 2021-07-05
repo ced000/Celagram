@@ -23,6 +23,19 @@ body {
     background-color: yellowgreen;
     text-align: center;
     padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header span {
+    position: absolute;
+    left: 40px;
+    background-color: yellow;
+    padding: 7px;
+    border-radius: 15px;
+    border: 2px solid greenyellow;
 }
 
 .header h2 {
@@ -257,3 +270,36 @@ hr {
     background-color: black;
 }
 
+.notification {
+    position: absolute;
+    top: 80px;
+    left: -40%;
+    background-color: rgb(146, 51, 235);
+    height: 40px;
+    width: 40%;
+    border-radius: 5px;
+    transition: transform 1s ease-in-out;
+    color: white;
+    text-align: center;
+}
+
+.not-loader-container {
+    background-color: white;
+    height: 2.2px;
+    padding-bottom: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.not-text {
+    padding: 5px 15px;
+}
+
+.not-loader {
+    background-color: rgb(144, 173, 13);
+    height: 2.2px;
+    padding-bottom: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+    transition: transform 4.7s ease-in-out;
+}
